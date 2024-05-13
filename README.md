@@ -1,66 +1,70 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# [ESGForum](http://15.165.129.233/)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<div align="center" style="display:flex;">
+    <img src="https://github.com/ESGForumWebSiteDev/.github/assets/102473964/f948dee2-5cc6-48fe-be60-88089ddae2be" width="100" alt="logo"/>
+</div>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+# 1. サービス紹介
+> 大学ESG実践フォーラムウェブサイト
+---
+<br>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+# 2. チームメンバー紹介
+|                                         [キム・ユミン](https://github.com/yuminn-k)                                          |                                         [イ・ジェイル](https://github.com/cheiru94)                                          |                                         [カン・ジュウォン](https://github.com/Z00One)                                          |                                         [イ・ジュヒョン](https://github.com/d556f8)                                    
+| :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
+| <img src="https://avatars.githubusercontent.com/u/55650732?v=4" width=400px alt="ユミン"/> | <img src="https://avatars.githubusercontent.com/u/146077826?v=4" width=400px alt="ジェイル"> | <img src="https://avatars.githubusercontent.com/u/102473964?v=4" width=400px alt="ジュウォン"/> | <img src="https://avatars.githubusercontent.com/u/64972038?v=4" width=400px alt="ジュヒョン"/> | 
+|                       Project Leader                        |                            Frontend                            |                            Full-Stack                            |                          Full-Stack                          
+---
+<br>
 
-## Learning Laravel
+# 3. コア機能
+- 会員登録/ログイン機能
+  - 管理者が登録許可しなければログインできないように実装
+- 投稿機能
+  - quillスマートエディタを使用して多数の画像、ファイル添付可能
+  - 管理者だけ投稿できるように実装
+- 管理者機能
+  - 委員会、委員会メンバー管理
+  - 一般会員入会手続き
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
+<br>
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+# 4. プロジェクト構造
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+![stru](https://github.com/ESGForumWebSiteDev/project_ESGForumWebSiteDev_main-deployment-repo/assets/55650732/6570734f-2be8-4e08-b1c4-161baaec9e38)
+---
+<br>
 
-## Laravel Sponsors
+# 5. 技術スタック
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### フロントエンド
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### Premium Partners
+### バックエンド
+![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+### 配布
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+> +AWS EC2
+> AWS S3
 
-## Contributing
+### コラボレーションツール
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Gather](https://img.shields.io/badge/gather-%23007ACC.svg?style=for-the-badge&logo=ros&logoColor=white)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
+<br>
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# 6. :pencil2: ご連絡に際しては
+- メール : [gimyumin40@gmail.com](mailto:gimyumin40@gmail.com)
+- [フロントエンドソースコードリポジトリ](https://github.com/ESGForumWebSiteDev/project_ESGForumWebSiteDev_react-deployment-repo)
+- [バックエンドソースコードリポジトリ](https://github.com/ESGForumWebSiteDev/project_ESGForumWebSiteDev_laravel-deployment-repo)
